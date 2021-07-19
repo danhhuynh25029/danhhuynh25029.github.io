@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   /*font-family: sans-serif;*/
@@ -16,8 +17,10 @@ a:hover{
 .sidebar{
 	height: 100%;
 	position: fixed;
-	border-right: 1px solid #dcdde1;
-	width: 270px;
+	border-right: 1px solid #e1e4e8;
+	/*width: 270px;*/
+	width: 21%;
+	float: left;
 }
 .sidebar .intro{
 	padding: 15px 15px;
@@ -25,7 +28,7 @@ a:hover{
 }
 .sidebar .nav{
 	text-align: center;
-	border-bottom: 1px solid #dcdde1;
+	border-bottom: 1px solid #e1e4e8;
 }
 .sidebar .nav{
 	height: 70px;
@@ -85,14 +88,25 @@ a:hover{
 .content{
 	/*display:block;*/
 	/*position: relative;*/
-	padding-left: 270px;
+	width: 79%;
+	float: right;
+	margin-top: 10px;
 	left: 0px;
 	
+}
+.content .head{
+	padding-left: 30px;
+	/*position: fixed;*/
+	/*display: block;*/
+	/*margin:auto;*/
+	width: 750px;
 }
 .content .posts{
 	width: 750px;
 	margin: auto;
+	margin-top: 5px;
 	padding-top: 20px;
+	/*border: 1px solid black;*/
 	/*border: 1px solid black;*/
 }
 .content .posts p{
