@@ -1,15 +1,67 @@
-*{
-	margin: 0px;
-	box-sizing: 0px;
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /*font-family: sans-serif;*/
+  color: #333;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	opacity: 0.5;
+	transition: 0.5s;
+}
+.sidebar{
+	height: 100%;
+	position: fixed;
+	border-right: 1px solid #dcdde1;
+	width: 270px;
+}
+.sidebar .intro{
+	padding: 15px 15px;
+	text-align: center;
+}
+.sidebar .nav{
+	text-align: center;
+	border-bottom: 1px solid #dcdde1;
+}
+.sidebar .nav{
+	height: 70px;
+}
+
+.sidebar .nav ul{
+	padding: 0px;
+	list-style: none;
+	overflow: hidden;
+}
+.sidebar .nav ul li{
+	float: left;
+	width:70px;
+	height: 70px;
+	line-height: 70px;
+	margin-left: -5px;
+}
+.sidebar .nav ul li a{
+	text-align: center;
+	/*padding: 14px 15px;*/
+	display: block;
+	color: #333;
 }
 .avatar{
-	margin-top: 30px;
+	/*margin-top: 30px;*/
 	text-align: center;
+	height: 190px;
 }
 .avatar img{
 	height: 170px;
 	width: 170px;
+	/*display: block;*/
 	border-radius: 50%;
+	line-height: 190px;
+	margin-top: 10px;
+	/*transition: 1s;*/
 	/*text-align: center;*/
 }
 .contact{
@@ -18,11 +70,31 @@
 }
 .contact div{
 	display: inline-block;
-	width: 100px;
+	width: 50px;
 }
 .contact img{
-	height: 30px;
-	width: 30px;
+	height: 23px;
+	width: 23px;
 	display: inline-block;
 
+}
+.contact img:hover{
+	opacity:0.5;
+	transition: 0.5s;
+}
+.content{
+	/*display:block;*/
+	/*position: relative;*/
+	padding-left: 270px;
+	left: 0px;
+	
+}
+.content .posts{
+	width: 750px;
+	margin: auto;
+	padding-top: 20px;
+	/*border: 1px solid black;*/
+}
+.content .posts p{
+	padding-top: 10px;
 }
