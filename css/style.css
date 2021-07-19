@@ -1,0 +1,28 @@
+*{
+	margin: 0px;
+	box-sizing: 0px;
+}
+.avatar{
+	margin-top: 30px;
+	text-align: center;
+}
+.avatar img{
+	height: 170px;
+	width: 170px;
+	border-radius: 50%;
+	/*text-align: center;*/
+}
+.contact{
+	margin-top: 10px;
+	text-align: center;
+}
+.contact div{
+	display: inline-block;
+	width: 100px;
+}
+.contact img{
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+
+}
