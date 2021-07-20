@@ -34,28 +34,11 @@ a:hover{
 	height: 70px;
 }
 
-.sidebar .nav ul{
-	padding: 0px;
-	list-style: none;
-	overflow: hidden;
-}
-.sidebar .nav ul li{
-	float: left;
-	width:70px;
-	height: 70px;
-	line-height: 70px;
-	margin-left: -5px;
-}
-.sidebar .nav ul li a{
-	text-align: center;
-	/*padding: 14px 15px;*/
-	display: block;
-	color: #333;
-}
-.avatar{
-	/*margin-top: 30px;*/
+
+.sidebar .avatar{
 	text-align: center;
 	height: 190px;
+	margin-top: 70px;
 }
 .avatar img{
 	height: 170px;
@@ -101,7 +84,7 @@ a:hover{
 	/*margin:auto;*/
 	width: 750px;
 }
-.container .content{
+.container .content{	
 	border: 1px solid #e1e4e8 ;
 	border-radius: 5px 5px;
 	width: 950px;
