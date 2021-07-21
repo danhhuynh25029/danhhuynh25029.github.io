@@ -94,13 +94,13 @@ a:hover{
 	margin-top: 10px;
 }
 .sidebar .nav ul li{
-	height: 45px;
+	height: 55px;
 	border-bottom: 1px solid #e1e4e8 ;
-	line-height: 45px;
+	line-height: 55px;
 	text-align: right;
 	padding-right: 10px;
 }
 .sidebar .nav ul li a{
 	color: #333;
-	font-size: 21px;
+	font-size: 19px;
 }
