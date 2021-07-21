@@ -26,28 +26,17 @@ a:hover{
 	padding: 15px 15px;
 	text-align: center;
 }
-.sidebar .nav{
-	text-align: center;
-	border-bottom: 1px solid #e1e4e8;
-}
-.sidebar .nav{
-	height: 70px;
-}
-
 
 .sidebar .avatar{
 	text-align: center;
 	height: 190px;
 	margin-top: 70px;
 }
-.avatar img{
+.sidebar .avatar img{
 	height: 170px;
 	width: 170px;
-	/*display: block;*/
 	border-radius: 50%;
 	line-height: 190px;
-	/*transition: 1s;*/
-	/*text-align: center;*/
 }
 .contact{
 	margin-top: 10px;
@@ -100,4 +89,18 @@ a:hover{
 }
 .container .posts p{
 	padding-top: 10px;
+}
+.sidebar .nav{
+	margin-top: 10px;
+}
+.sidebar .nav ul li{
+	height: 45px;
+	border-bottom: 1px solid #e1e4e8 ;
+	line-height: 45px;
+	text-align: right;
+	padding-right: 10px;
+}
+.sidebar .nav ul li a{
+	color: #333;
+	font-size: 21px;
 }
