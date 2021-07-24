@@ -70,17 +70,17 @@ a:hover{
 	/*position: fixed;*/
 	/*display: block;*/
 	/*margin:auto;*/
-	width: 750px;
+	width: 70%;
 }
 .container .content{	
 	border: 1px solid #e1e4e8 ;
 	border-radius: 5px 5px;
-	width: 950px;
+	width: 90%;
 	margin: auto;
 	margin-top: 10px;
 }
 .container .posts{
-	width: 750px;
+	width: 70%;
 	margin: auto;
 	margin-top: 5px;
 	padding-top: 20px;
