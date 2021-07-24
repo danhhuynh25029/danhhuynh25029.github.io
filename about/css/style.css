@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    font-size: 17px;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+li{
+    height: 35px;
+    line-height: 25px;
+}
+.back{
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+}
+.back a{
+    margin-left: 25px;
+    font-size: 19px;
+}
+.header {
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    
+}
+.container{
+    width: 50%;
+    margin: auto;
+}
+.container .skill{
+margin-top: 10px;
+}
+.container .project{
+    margin-top: 10px;
+}
