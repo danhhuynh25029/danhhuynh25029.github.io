@@ -73,11 +73,11 @@ a:hover{
 	width: 70%;
 }
 .container .content{	
-	border: 1px solid #e1e4e8 ;
-	border-radius: 5px 5px;
+	/* border: 1px solid #e1e4e8 ;
+	border-radius: 5px 5px; */
 	width: 90%;
 	margin: auto;
-	margin-top: 10px;
+	/* margin-top: 10px; */
 }
 .container .posts{
 	width: 70%;
