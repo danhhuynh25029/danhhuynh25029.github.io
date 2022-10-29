@@ -1,12 +1,18 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Link from "next/link";
-import Button from "@mui/material/Button";
+import { Grid } from '@mui/material';
+import Sidebar from './sidebar';
+import Content from './content';
+
 export default function Home() {
   return (
     <>
-      <Button variant="contained">Hello World</Button>
+      <Grid container spacing={0}>
+        <Grid item xs={6} md={3}>
+          <Sidebar />
+        </Grid>
+        <Grid item xs={6} md={9}>
+          <Content />
+        </Grid>
+      </Grid>
     </>
   )
 }
