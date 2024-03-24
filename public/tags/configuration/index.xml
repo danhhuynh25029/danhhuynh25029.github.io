@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Configuration - Tag - My New Hugo Site</title>
+        <link>http://localhost:1313/tags/configuration/</link>
+        <description>Configuration - Tag - My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/configuration/" rel="self" type="application/rss+xml" /><item>
+    <title>Theme Documentation - Basics</title>
+    <link>http://localhost:1313/posts/theme-documentation-basics/</link>
+    <pubDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</pubDate>
+    <author>Dillon</author>
+    <guid>http://localhost:1313/posts/theme-documentation-basics/</guid>
+    <description><![CDATA[<p>Discover what the Hugo - <strong>KeepIt</strong> theme is all about and the core-concepts behind it.</p>]]></description>
+</item>
+</channel>
+</rss>

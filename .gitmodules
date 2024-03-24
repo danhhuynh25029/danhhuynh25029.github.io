@@ -1,3 +1,9 @@
 [submodule "themes/themes/PaperMod"]
 	path = themes/themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/keepit"]
+	path = themes/keepit
+	url = https://github.com/Fastbyte01/KeepIt.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod
