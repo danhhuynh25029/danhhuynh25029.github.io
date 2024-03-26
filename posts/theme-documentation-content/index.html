@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Theme Documentation - Content - My New Hugo Site</title><meta name="Description" content="Find out how to create and organize your content quickly and intuitively in KeepIt theme."><meta property="og:title" content="Theme Documentation - Content" />
+<meta property="og:description" content="Find out how to create and organize your content quickly and intuitively in KeepIt theme." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/posts/theme-documentation-content/" /><meta property="og:image" content="http://localhost:1313/posts/theme-documentation-content/featured-image.jpg" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-03-05T15:58:26+08:00" />
+<meta property="article:modified_time" content="2020-03-05T15:58:26+08:00" /><meta property="og:site_name" content="KeepIt" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:1313/posts/theme-documentation-content/featured-image.jpg" /><meta name="twitter:title" content="Theme Documentation - Content"/>
+<meta name="twitter:description" content="Find out how to create and organize your content quickly and intuitively in KeepIt theme."/>
+      <meta name="twitter:site" content="@xxx"/>
+<meta name="application-name" content="My KeepIt site">
+<meta name="apple-mobile-web-app-title" content="My KeepIt site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/posts/theme-documentation-content/" /><link rel="prev" href="http://localhost:1313/posts/theme-documentation-built-in-shortcodes/" /><link rel="next" href="http://localhost:1313/posts/theme-documentation-basics/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Theme Documentation - Content",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/posts\/theme-documentation-content\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "http:\/\/localhost:1313\/posts\/theme-documentation-content\/featured-image.jpg",
+                            "width":  2363 ,
+                            "height":  1269 
+                        }],"genre": "posts","keywords": "content, Markdown","wordcount":  1975 ,
+        "url": "http:\/\/localhost:1313\/posts\/theme-documentation-content\/","datePublished": "2020-03-05T15:58:26+08:00","dateModified": "2020-03-05T15:58:26+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Dillon"
+            },"description": "Find out how to create and organize your content quickly and intuitively in KeepIt theme."
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="My New Hugo Site">My KeepIt site</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="My New Hugo Site">My KeepIt site</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content always-active" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Theme Documentation - Content</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://dillonzq.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Dillon</a>
+</span>&nbsp;<span class="post-category">included in <a href="/categories/documentation/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Documentation</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2020-03-05">2020-03-05</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1975 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;10 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/posts/theme-documentation-content/featured-image.jpg"
+        data-srcset="/posts/theme-documentation-content/featured-image.jpg, /posts/theme-documentation-content/featured-image.jpg 1.5x, /posts/theme-documentation-content/featured-image.jpg 2x"
+        data-sizes="auto"
+        alt="/posts/theme-documentation-content/featured-image.jpg"
+        title="Find out how to create and organize your content quickly and intuitively in KeepIt theme." /></div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#contents-organization">1 Contents Organization</a></li>
+    <li><a href="#front-matter">2 Front Matter</a></li>
+    <li><a href="#3-content-summaries">3 Content Summaries</a>
+      <ul>
+        <li><a href="#automatic-summary-splitting">Automatic Summary Splitting</a></li>
+        <li><a href="#manual-summary-splitting">Manual Summary Splitting</a></li>
+        <li><a href="#front-matter-summary">Front Matter Summary</a></li>
+        <li><a href="#use-description-as-summary">Use Description as Summary</a></li>
+        <li><a href="#priority-order-of-summary-selection">Priority Order of Summary Selection</a></li>
+      </ul>
+    </li>
+    <li><a href="#4-basic-markdown-syntax">4 Basic Markdown Syntax</a></li>
+    <li><a href="#extended-markdown-syntax">5 Extended Markdown Syntax</a>
+      <ul>
+        <li><a href="#emoji-support">Emoji Support</a></li>
+        <li><a href="#mathematical-formula">Mathematical Formula</a></li>
+        <li><a href="#ruby">Ruby Annotation</a></li>
+        <li><a href="#fraction">Fraction</a></li>
+        <li><a href="#fontawesome">Font Awesome</a></li>
+        <li><a href="#escape-character">Escape character</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>Find out how to create and organize your content quickly and intuitively in <strong>KeepIt</strong> theme.</p>
+<h2 id="contents-organization">1 Contents Organization</h2>
+<p>A few suggestions to help you get a good looking site quickly:</p>
+<ul>
+<li>Keep post pages in the <code>content/posts</code> directory, for example: <code>content/posts/my-first-post.md</code></li>
+<li>Keep other pages in the <code>content</code> directory, for example: <code>content/about.md</code></li>
+<li>Local resources organization</li>
+</ul>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>Local Resource Reference<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>There are three ways to reference local resources such as <strong>images</strong> and <strong>music</strong>:</p>
+<ol>
+<li>Using <a href="https://gohugo.io/content-management/page-resources/" target="_blank" rel="noopener noreffer">page resources</a>
+ in <a href="https://gohugo.io/content-management/page-bundles/" target="_blank" rel="noopener noreffer">page bundles</a>
+.
+You can reference page resources by the value for <code>Resources.GetMatch</code> or the filepath of the resource relative to the page directory directly.</li>
+<li>Store resources in the <strong>assets</strong> directory, which is <code>/assets</code> by default.
+The filepath of the resource to reference in the post is relative to the assets directory.</li>
+<li>Store resources in the <strong>static</strong> directory, which is <code>/static</code> by default.
+The filepath of the resource to reference in the post is relative to the static directory.</li>
+</ol>
+<p>The <strong>priority</strong> of references is also in the above order.</p>
+<p>There are many places in the theme where the above local resource references can be used,
+such as <strong>links</strong>, <strong>images</strong>, <code>image</code> shortcode, <code>music</code> shortcode and some params in the <strong>front matter</strong>.</p>
+<p>Images in page resources or assets directory <a href="https://gohugo.io/content-management/image-processing/" target="_blank" rel="noopener noreffer">processing</a>
+
+will be supported in the future.
+It&rsquo;s really cool! <i class="far fa-grin-squint fa-fw" aria-hidden="true"></i></p>
+</div>
+        </div>
+    </div>
+<h2 id="front-matter">2 Front Matter</h2>
+<p><strong>Hugo</strong> allows you to add front matter in <code>yaml</code>, <code>toml</code> or <code>json</code> to your content files.</p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>Note<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><strong>Not all</strong> of the below front matters need to be set in each of your posts.
+It is necessary only if the front matters and the <code>page</code> part in your <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>
+ are inconsistent.</div>
+        </div>
+    </div>
+<p>Here is a front matter example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#f92672">title</span>: <span style="color:#e6db74">&#34;My First Post&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">subtitle</span>: <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">date</span>: <span style="color:#e6db74">2020-03-04T15:58:26</span><span style="color:#ae81ff">+08</span>:<span style="color:#ae81ff">00</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">lastmod</span>: <span style="color:#e6db74">2020-03-04T15:58:26</span><span style="color:#ae81ff">+08</span>:<span style="color:#ae81ff">00</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">draft</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">author</span>: <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">authorLink</span>: <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">description</span>: <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">license</span>: <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">images</span>: []
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">tags</span>: []
+</span></span><span style="display:flex;"><span><span style="color:#f92672">categories</span>: []
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">featuredImage</span>: <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">featuredImagePreview</span>: <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">hiddenFromHomePage</span>: <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">hiddenFromSearch</span>: <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">twemoji</span>: <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">lightgallery</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">ruby</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">fraction</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">fontawesome</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">linkToMarkdown</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">rssFullText</span>: <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">toc</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">enable</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">auto</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">code</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">copy</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">maxShownLines</span>: <span style="color:#ae81ff">50</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">math</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">enable</span>: <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># ...</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">mapbox</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># ...</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">share</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">enable</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># ...</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">comment</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">enable</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># ...</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">library</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">css</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># someCSS = &#34;some.css&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># located in &#34;assets/&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Or</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># someCSS = &#34;https://cdn.example.com/some.css&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">js</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># someJS = &#34;some.js&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># located in &#34;assets/&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Or</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># someJS = &#34;https://cdn.example.com/some.js&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">seo</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">images</span>: []
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># ...</span>
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><ul>
+<li>
+<p><strong>title</strong>: the title for the content.</p>
+</li>
+<li>
+<p><strong>subtitle</strong>: <a href="https://github.com/Fastbyte01/KeepIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
+        class="lazyload version"
+        src="/svg/loading.min.svg"
+        data-src="/svg/version/0.2.0-new.min.svg"
+        data-srcset="/svg/version/0.2.0-new.min.svg, /svg/version/0.2.0-new.min.svg 1.5x, /svg/version/0.2.0-new.min.svg 2x"
+        data-sizes="auto"
+        alt="KeepIt NEW | 0.2.0"
+        title="KeepIt NEW | 0.2.0" /></a> the subtitle for the content.</p>
+</li>
+<li>
+<p><strong>date</strong>: the datetime assigned to this page, which is usually fetched from the <code>date</code> field in front matter, but this behaviour is configurabl in the <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>
+.</p>
+</li>
+<li>
+<p><strong>lastmod</strong>: the datetime at which the content was last modified.</p>
+</li>
+<li>
+<p><strong>draft</strong>: if <code>true</code>, the content will not be rendered unless the <code>--buildDrafts</code>/<code>-D</code> flag is passed to the <code>hugo</code> command.</p>
+</li>
+<li>
+<p><strong>author</strong>: the author for the content.</p>
+</li>
+<li>
+<p><strong>authorLink</strong>: the link of the author.</p>
+</li>
+<li>
+<p><strong>description</strong>: the description for the content.</p>
+</li>
+<li>
+<p><strong>license</strong>: the special lisence for this content.</p>
+</li>
+<li>
+<p><strong>images</strong>: page images for Open Graph and Twitter Cards.</p>
+</li>
+<li>
+<p><strong>tags</strong>: the tags for the content.</p>
+</li>
+<li>
+<p><strong>categories</strong>: the categories for the content.</p>
+</li>
+<li>
+<p><strong>featuredImage</strong>: the featured image for the content.</p>
+</li>
+<li>
+<p><strong>featuredImagePreview</strong>: the featured image for the content preview in the home page.</p>
+</li>
+<li>
+<p><strong>hiddenFromHomePage</strong>: if <code>true</code>, the content will not be shown in the home page.</p>
+</li>
+<li>
+<p><strong>hiddenFromSearch</strong>: <a href="https://github.com/Fastbyte01/KeepIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
+        class="lazyload version"
+        src="/svg/loading.min.svg"
+        data-src="/svg/version/0.2.0-new.min.svg"
+        data-srcset="/svg/version/0.2.0-new.min.svg, /svg/version/0.2.0-new.min.svg 1.5x, /svg/version/0.2.0-new.min.svg 2x"
+        data-sizes="auto"
+        alt="KeepIt NEW | 0.2.0"
+        title="KeepIt NEW | 0.2.0" /></a> if <code>true</code>, the content will not be shown in the search results.</p>
+</li>
+<li>
+<p><strong>twemoji</strong>: <a href="https://github.com/Fastbyte01/KeepIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
+        class="lazyload version"
+        src="/svg/loading.min.svg"
+        data-src="/svg/version/0.2.0-new.min.svg"
+        data-srcset="/svg/version/0.2.0-new.min.svg, /svg/version/0.2.0-new.min.svg 1.5x, /svg/version/0.2.0-new.min.svg 2x"
+        data-sizes="auto"
+        alt="KeepIt NEW | 0.2.0"
+        title="KeepIt NEW | 0.2.0" /></a> if <code>true</code>, the content will enable the twemoji.</p>
+</li>
+<li>
+<p><strong>lightgallery</strong>: if <code>true</code>, images in the content will be shown as the gallery.</p>
+</li>
+<li>
+<p><strong>ruby</strong>: <a href="https://github.com/Fastbyte01/KeepIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
+        class="lazyload version"
+        src="/svg/loading.min.svg"
+        data-src="/svg/version/0.2.0-new.min.svg"
+        data-srcset="/svg/version/0.2.0-new.min.svg, /svg/version/0.2.0-new.min.svg 1.5x, /svg/version/0.2.0-new.min.svg 2x"
+        data-sizes="auto"
+        alt="KeepIt NEW | 0.2.0"
+        title="KeepIt NEW | 0.2.0" /></a> if <code>true</code>, the content will enable the <a href="#ruby" rel="">ruby extended syntax</a>
+.</p>
+</li>
+<li>
+<p><strong>fraction</strong>: <a href="https://github.com/Fastbyte01/KeepIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
+        class="lazyload version"
+        src="/svg/loading.min.svg"
+        data-src="/svg/version/0.2.0-new.min.svg"
+        data-srcset="/svg/version/0.2.0-new.min.svg, /svg/version/0.2.0-new.min.svg 1.5x, /svg/version/0.2.0-new.min.svg 2x"
+        data-sizes="auto"
+        alt="KeepIt NEW | 0.2.0"
+        title="KeepIt NEW | 0.2.0" /></a> if <code>true</code>, the content will enable the <a href="#fraction" rel="">fraction extended syntax</a>
+.</p>
+</li>
+<li>
+<p><strong>fontawesome</strong>: <a href="https://github.com/Fastbyte01/KeepIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
+        class="lazyload version"
+        src="/svg/loading.min.svg"
+        data-src="/svg/version/0.2.0-new.min.svg"
+        data-srcset="/svg/version/0.2.0-new.min.svg, /svg/version/0.2.0-new.min.svg 1.5x, /svg/version/0.2.0-new.min.svg 2x"
+        data-sizes="auto"
+        alt="KeepIt NEW | 0.2.0"
+        title="KeepIt NEW | 0.2.0" /></a> if <code>true</code>, the content will enable the <a href="#fontawesome" rel="">Font Awesome extended syntax</a>
+.</p>
+</li>
+<li>
+<p><strong>linkToMarkdown</strong>: if <code>true</code>, the footer of the content will be shown the link to the orignal Markdown file.</p>
+</li>
+<li>
+<p><strong>rssFullText</strong>: <a href="https://github.com/Fastbyte01/KeepIt/releases/tag/v0.2.4" rel="noopener noreffer" target="_blank"><img
+        class="lazyload version"
+        src="/svg/loading.min.svg"
+        data-src="/svg/version/0.2.4-new.min.svg"
+        data-srcset="/svg/version/0.2.4-new.min.svg, /svg/version/0.2.4-new.min.svg 1.5x, /svg/version/0.2.4-new.min.svg 2x"
+        data-sizes="auto"
+        alt="KeepIt NEW | 0.2.4"
+        title="KeepIt NEW | 0.2.4" /></a> if <code>true</code>, the full text content will be shown in RSS.</p>
+</li>
+<li>
+<p><strong>toc</strong>: <a href="https://github.com/Fastbyte01/KeepIt/releases/tag/v0.2.9" rel="noopener noreffer" target="_blank"><img
+        class="lazyload version"
+        src="/svg/loading.min.svg"
+        data-src="/svg/version/0.2.9-changed.min.svg"
+        data-srcset="/svg/version/0.2.9-changed.min.svg, /svg/version/0.2.9-changed.min.svg 1.5x, /svg/version/0.2.9-changed.min.svg 2x"
+        data-sizes="auto"
+        alt="KeepIt CHANGED | 0.2.9"
+        title="KeepIt CHANGED | 0.2.9" /></a> the same as the <code>params.page.toc</code> part in the <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>
+.</p>
+</li>
+<li>
+<p><strong>code</strong>: <a href="https://github.com/Fastbyte01/KeepIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
+        class="lazyload version"
+        src="/svg/loading.min.svg"
+        data-src="/svg/version/0.2.0-new.min.svg"
+        data-srcset="/svg/version/0.2.0-new.min.svg, /svg/version/0.2.0-new.min.svg 1.5x, /svg/version/0.2.0-new.min.svg 2x"
+        data-sizes="auto"
+        alt="KeepIt NEW | 0.2.0"
+        title="KeepIt NEW | 0.2.0" /></a> the same as the <code>params.page.code</code> part in the <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>
+.</p>
+</li>
+<li>
+<p><strong>math</strong>: <a href="https://github.com/Fastbyte01/KeepIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
+        class="lazyload version"
+        src="/svg/loading.min.svg"
+        data-src="/svg/version/0.2.0-changed.min.svg"
+        data-srcset="/svg/version/0.2.0-changed.min.svg, /svg/version/0.2.0-changed.min.svg 1.5x, /svg/version/0.2.0-changed.min.svg 2x"
+        data-sizes="auto"
+        alt="KeepIt CHANGED | 0.2.0"
+        title="KeepIt CHANGED | 0.2.0" /></a> the same as the <code>params.page.math</code> part in the <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>
+.</p>
+</li>
+<li>
+<p><strong>mapbox</strong>: <a href="https://github.com/Fastbyte01/KeepIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
+        class="lazyload version"
+        src="/svg/loading.min.svg"
+        data-src="/svg/version/0.2.0-new.min.svg"
+        data-srcset="/svg/version/0.2.0-new.min.svg, /svg/version/0.2.0-new.min.svg 1.5x, /svg/version/0.2.0-new.min.svg 2x"
+        data-sizes="auto"
+        alt="KeepIt NEW | 0.2.0"
+        title="KeepIt NEW | 0.2.0" /></a> the same as the <code>params.page.mapbox</code> part in the <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>
+.</p>
+</li>
+<li>
+<p><strong>share</strong>: the same as the <code>params.page.share</code> part in the <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>
+.</p>
+</li>
+<li>
+<p><strong>comment</strong>: <a href="https://github.com/Fastbyte01/KeepIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
+        class="lazyload version"
+        src="/svg/loading.min.svg"
+        data-src="/svg/version/0.2.0-changed.min.svg"
+        data-srcset="/svg/version/0.2.0-changed.min.svg, /svg/version/0.2.0-changed.min.svg 1.5x, /svg/version/0.2.0-changed.min.svg 2x"
+        data-sizes="auto"
+        alt="KeepIt CHANGED | 0.2.0"
+        title="KeepIt CHANGED | 0.2.0" /></a> the same as the <code>params.page.comment</code> part in the <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>
+.</p>
+</li>
+<li>
+<p><strong>library</strong>: <a href="https://github.com/Fastbyte01/KeepIt/releases/tag/v0.2.7" rel="noopener noreffer" target="_blank"><img
+        class="lazyload version"
+        src="/svg/loading.min.svg"
+        data-src="/svg/version/0.2.7-new.min.svg"
+        data-srcset="/svg/version/0.2.7-new.min.svg, /svg/version/0.2.7-new.min.svg 1.5x, /svg/version/0.2.7-new.min.svg 2x"
+        data-sizes="auto"
+        alt="KeepIt NEW | 0.2.7"
+        title="KeepIt NEW | 0.2.7" /></a> the same as the <code>params.page.library</code> part in the <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>
+.</p>
+</li>
+<li>
+<p><strong>seo</strong>: <a href="https://github.com/Fastbyte01/KeepIt/releases/tag/v0.2.10" rel="noopener noreffer" target="_blank"><img
+        class="lazyload version"
+        src="/svg/loading.min.svg"
+        data-src="/svg/version/0.2.10-new.min.svg"
+        data-srcset="/svg/version/0.2.10-new.min.svg, /svg/version/0.2.10-new.min.svg 1.5x, /svg/version/0.2.10-new.min.svg 2x"
+        data-sizes="auto"
+        alt="KeepIt NEW | 0.2.10"
+        title="KeepIt NEW | 0.2.10" /></a> the same as the <code>params.page.seo</code> part in the <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>
+.</p>
+</li>
+</ul>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><strong>featuredImage</strong> and <strong>featuredImagePreview</strong> support the complete usage of <a href="#contents-organization" rel="">local resource references</a>
+.</p>
+<p>If the page resource with <code>name: featured-image</code> or <code>name: featured-image-preview</code> is set in the front matter,
+it is not necessary to set the parameter <code>featuredImage</code> or <code>featuredImagePreview</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">resources</span>:
+</span></span><span style="display:flex;"><span>- <span style="color:#f92672">name</span>: <span style="color:#ae81ff">featured-image</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">src</span>: <span style="color:#ae81ff">featured-image.jpg</span>
+</span></span><span style="display:flex;"><span>- <span style="color:#f92672">name</span>: <span style="color:#ae81ff">featured-image-preview</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">src</span>: <span style="color:#ae81ff">featured-image-preview.jpg</span>
+</span></span></code></pre></div></div>
+        </div>
+    </div>
+<h2 id="3-content-summaries">3 Content Summaries</h2>
+<p><strong>KeepIt</strong> theme uses the summary of the content to display abstract information in the home page. Hugo can generate summaries of your content.</p>
+<p><figure><a class="lightgallery" href="/posts/theme-documentation-content/summary.png" title="Summary Preview" data-thumbnail="/posts/theme-documentation-content/summary.png" data-sub-html="<h2>Summary Preview</h2><p>Summary Preview</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/posts/theme-documentation-content/summary.png"
+            data-srcset="/posts/theme-documentation-content/summary.png, /posts/theme-documentation-content/summary.png 1.5x, /posts/theme-documentation-content/summary.png 2x"
+            data-sizes="auto"
+            alt="/posts/theme-documentation-content/summary.png" width="1740" height="862" />
+    </a><figcaption class="image-caption">Summary Preview</figcaption>
+    </figure></p>
+<h3 id="automatic-summary-splitting">Automatic Summary Splitting</h3>
+<p>By default, Hugo automatically takes the first 70 words of your content as its summary.</p>
+<p>You may customize the summary length by setting <code>summaryLength</code> in the <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>
+.</p>
+<p>If you are creating content in a <strong><ruby>CJK<rt>Chinese/Japanese/Korean</rt></ruby></strong> language and want to use Hugo’s automatic summary splitting, set <code>hasCJKLanguage</code> to <code>true</code> in your <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>
+.</p>
+<h3 id="manual-summary-splitting">Manual Summary Splitting</h3>
+<p>Alternatively, you may add the <code>&lt;!--more--&gt;</code> summary divider where you want to split the article.</p>
+<p>Content that comes before the summary divider will be used as that content’s summary.</p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>Note<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Be careful to enter <code>&lt;!--more--&gt;</code> exactly; i.e., all lowercase and with no whitespace.</div>
+        </div>
+    </div>
+<h3 id="front-matter-summary">Front Matter Summary</h3>
+<p>You might want your summary to be something other than the text that starts the article. In this case you can provide a separate summary in the <code>summary</code> variable of the article front matter.</p>
+<h3 id="use-description-as-summary">Use Description as Summary</h3>
+<p>You might want your description in the <code>description</code> variable of the article front matter as the summary.</p>
+<p>You may add the <code>&lt;!--more--&gt;</code> summary divider at the start of the article. Keep content that comes before the summary divider empty. Then <strong>KeepIt</strong> theme will use your description as the summary.</p>
+<h3 id="priority-order-of-summary-selection">Priority Order of Summary Selection</h3>
+<p>Because there are multiple ways in which a summary can be specified it is useful to understand the order. It is as follows:</p>
+<ol>
+<li>If there is a <code>&lt;!--more--&gt;</code> summary divider present in the article but no content is before the divider, the description will be used as the summary.</li>
+<li>If there is a <code>&lt;!--more--&gt;</code> summary divider present in the article the text up to the divider will be provided as per the manual summary split method.</li>
+<li>If there is a summary variable in the article front matter the value of the variable will be provided as per the front matter summary method.</li>
+<li>The text at the start of the article will be provided as per the automatic summary split method.</li>
+</ol>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>Note<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">It is not recommended to include rich text block elements in the summary, which will cause typographic errors. Such as code blocks, pictures, tables, etc.</div>
+        </div>
+    </div>
+<h2 id="4-basic-markdown-syntax">4 Basic Markdown Syntax</h2>
+<p>This part is shown in the <a href="../basic-markdown-syntax/" rel="">basic markdown syntax page</a>
+.</p>
+<h2 id="extended-markdown-syntax">5 Extended Markdown Syntax</h2>
+<p><strong>KeepIt</strong> theme has some extended syntax elements for you to write articles.</p>
+<h3 id="emoji-support">Emoji Support</h3>
+<p>This part is shown in the <a href="../emoji-support/" rel="">emoji support page</a>
+.</p>
+<h3 id="mathematical-formula">Mathematical Formula</h3>
+<a href="https://github.com/Fastbyte01/KeepIt/releases/tag/v0.2.11" rel="noopener noreffer" target="_blank"><img
+        class="lazyload version"
+        src="/svg/loading.min.svg"
+        data-src="/svg/version/0.2.11-changed.min.svg"
+        data-srcset="/svg/version/0.2.11-changed.min.svg, /svg/version/0.2.11-changed.min.svg 1.5x, /svg/version/0.2.11-changed.min.svg 2x"
+        data-sizes="auto"
+        alt="KeepIt CHANGED | 0.2.11"
+        title="KeepIt CHANGED | 0.2.11" /></a>
+<p><strong>KeepIt</strong> theme supports mathematical formulas based on <a href="https://katex.org/" target="_blank" rel="noopener noreffer">$\KaTeX$</a>
+.</p>
+<p>Set the property <code>enable = true</code> under <code>[params.math]</code> in your <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>
+
+and the property <code>math: true</code> of the article front matter to enable the automatic rendering of mathematical formulas.
+<strong>$\KaTeX$</strong> automatically renders formulas based on <strong>specific delimiters</strong>.</p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Here is a list of <a href="https://katex.org/docs/supported.html" target="_blank" rel="noopener noreffer">$\TeX$ functions supported by $\KaTeX$</a>
+.</div>
+        </div>
+    </div>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>Note<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Since Hugo generates HTML documents according to the syntax such as <code>_</code>/<code>*</code>/<code>&gt;&gt;</code> when rendering Markdown documents,
+and some text content in the form of escape characters
+(such as <code>\(</code>/<code>\)</code>/<code>\[</code>/<code>\]</code>/<code>\\</code>) escape processing will be performed automatically,
+therefore, additional escape character expressions are required for these places to achieve automatic rendering:</p>
+<ul>
+<li><code>_</code> -&gt; <code>\_</code></li>
+<li><code>*</code> -&gt; <code>\*</code></li>
+<li><code>&gt;&gt;</code> -&gt; <code>\&gt;&gt;</code></li>
+<li><code>\(</code> -&gt; <code>\\(</code></li>
+<li><code>\)</code> -&gt; <code>\\)</code></li>
+<li><code>\[</code> -&gt; <code>\\[</code></li>
+<li><code>\]</code> -&gt; <code>\\]</code></li>
+<li><code>\\</code> -&gt; <code>\\\\</code></li>
+</ul>
+<p><strong>KeepIt</strong> theme supports <a href="../theme-documentation-extended-shortcodes#12-raw" rel=""><code>raw</code> shortcode</a>
+ to avoid these escape characters,
+which helps you write raw mathematical formula content.</p>
+<p>Example <code>raw</code> input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>Inline Formula: <data id="id-3" data-raw></data>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Block Formula:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><data id="id-4" data-raw></data>
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<p>Inline Formula: <!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>Block Formula:</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</div>
+        </div>
+    </div>
+<h4 id="inline-formula">Inline Formula</h4>
+<p>The default inline delimiters are:</p>
+<ul>
+<li><code>$ ... $</code></li>
+<li><code>\( ... \)</code> (escaped: <code>\\( ... \\)</code>)</li>
+</ul>
+<p>For example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#e6db74">$</span>c <span style="color:#f92672">=</span> \pm\sqrt{a^<span style="color:#ae81ff">2</span> <span style="color:#f92672">+</span> b^<span style="color:#ae81ff">2</span>}<span style="color:#e6db74">$</span> and <span style="color:#66d9ef">\\</span>(f(x)=<span style="color:#66d9ef">\int</span>_{-<span style="color:#66d9ef">\infty</span>}^{<span style="color:#66d9ef">\infty</span>} <span style="color:#66d9ef">\hat</span>{f}(<span style="color:#66d9ef">\xi</span>) e^{2 <span style="color:#66d9ef">\pi</span> i <span style="color:#66d9ef">\xi</span> x} d <span style="color:#66d9ef">\xi\\</span>)
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<p>$c = \pm\sqrt{a^2 + b^2}$ and \(f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi\)</p>
+<h4 id="block-formula">Block Formula</h4>
+<p>The default block delimiters are:</p>
+<ul>
+<li><code>$$ ... $$</code></li>
+<li><code>\[ ... \]</code> (escaped: <code>\\[ ... \\]</code>)</li>
+<li><code>\begin{equation} ... \end{equation}</code> (unnumbered: <code>\begin{equation*} ... \end{equation*}</code>)</li>
+<li><code>\begin{align} ... \end{align}</code> (unnumbered: <code>\begin{align*} ... \end{align*}</code>)</li>
+<li><code>\begin{alignat} ... \end{alignat}</code> (unnumbered: <code>\begin{alignat*} ... \end{alignat*}</code>)</li>
+<li><code>\begin{gather} ... \end{gather}</code> (unnumbered: <code>\begin{gather*} ... \end{gather*}</code>)</li>
+<li><code>\begin{CD} ... \end{CD}</code></li>
+</ul>
+<p>For example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#e6db74">$$</span> c <span style="color:#f92672">=</span> \pm\sqrt{a^<span style="color:#ae81ff">2</span> <span style="color:#f92672">+</span> b^<span style="color:#ae81ff">2</span>} <span style="color:#e6db74">$$</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\\</span><span style="color:#a6e22e">[ f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi \\]</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\begin</span>{equation*}
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">\rho</span> <span style="color:#66d9ef">\frac</span>{<span style="color:#66d9ef">\mathrm</span>{D} <span style="color:#66d9ef">\mathbf</span>{v}}{<span style="color:#66d9ef">\mathrm</span>{D} t}=<span style="color:#66d9ef">\nabla</span> <span style="color:#66d9ef">\cdot</span> <span style="color:#66d9ef">\mathbb</span>{P}+<span style="color:#66d9ef">\rho</span> <span style="color:#66d9ef">\mathbf</span>{f}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\end</span>{equation*}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\begin</span>{equation}
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">\mathbf</span>{E}=<span style="color:#66d9ef">\sum</span>_{i} <span style="color:#66d9ef">\mathbf</span>{E}<span style="color:#66d9ef">\_</span>{i}=<span style="color:#66d9ef">\mathbf</span>{E}<span style="color:#66d9ef">\_</span>{1}+<span style="color:#66d9ef">\mathbf</span>{E}<span style="color:#66d9ef">\_</span>{2}+<span style="color:#66d9ef">\mathbf</span>{E}_{3}+<span style="color:#66d9ef">\cdots</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\end</span>{equation}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\begin</span>{align}
+</span></span><span style="display:flex;"><span>  a&amp;=b+c <span style="color:#66d9ef">\\\\</span>
+</span></span><span style="display:flex;"><span>  d+e&amp;=f
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\end</span>{align}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\begin</span>{alignat}{2}
+</span></span><span style="display:flex;"><span>   10&amp;x+&amp;3&amp;y = 2 <span style="color:#66d9ef">\\\\</span>
+</span></span><span style="display:flex;"><span>   3&amp;x+&amp;13&amp;y = 4
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\end</span>{alignat}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\begin</span>{gather}
+</span></span><span style="display:flex;"><span>   a=b <span style="color:#66d9ef">\\\\</span>
+</span></span><span style="display:flex;"><span>   e=b+c
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\end</span>{gather}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\begin</span>{CD}
+</span></span><span style="display:flex;"><span>   A @&gt;a<span style="color:#66d9ef">\&gt;</span>&gt; B <span style="color:#66d9ef">\\\\</span>
+</span></span><span style="display:flex;"><span>@VbVV @AAcA <span style="color:#66d9ef">\\\\</span>
+</span></span><span style="display:flex;"><span>   C @= D
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\end</span>{CD}
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<p>$$ c = \pm\sqrt{a^2 + b^2} $$</p>
+<p>\[ f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi \]</p>
+<p>\begin{equation*}
+\rho \frac{\mathrm{D} \mathbf{v}}{\mathrm{D} t}=\nabla \cdot \mathbb{P}+\rho \mathbf{f}
+\end{equation*}</p>
+<p>\begin{equation}
+\mathbf{E}=\sum_{i} \mathbf{E}_{i}=\mathbf{E}_{1}+\mathbf{E}_{2}+\mathbf{E}_{3}+\cdots
+\end{equation}</p>
+<p>\begin{align}
+a&amp;=b+c \\
+d+e&amp;=f
+\end{align}</p>
+<p>\begin{alignat}{2}
+10&amp;x+&amp;3&amp;y = 2 \\
+3&amp;x+&amp;13&amp;y = 4
+\end{alignat}</p>
+<p>\begin{gather}
+a=b \\
+e=b+c
+\end{gather}</p>
+<p>\begin{CD}
+A @&gt;a&gt;&gt; B \\
+@VbVV @AAcA \\
+C @= D
+\end{CD}</p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">You can add more inline and block delimiters in your <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>
+.</div>
+        </div>
+    </div>
+<h4 id="copy-tex">Copy-tex</h4>
+<p><strong><a href="https://github.com/Khan/KaTeX/tree/master/contrib/copy-tex" target="_blank" rel="noopener noreffer">Copy-tex</a>
+</strong> is an extension for <strong>$\KaTeX$</strong>.</p>
+<p>By the extension, when selecting and copying $\KaTeX$ rendered elements, copies their $\LaTeX$ source to the clipboard.</p>
+<p>Set the property <code>copyTex = true</code> under <code>[params.math]</code> in your <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>
+ to enable Copy-tex.</p>
+<p>Select and copy the formula rendered in the previous section, and you can find that the copied content is the $\LaTeX$ source code.</p>
+<h4 id="mhchem">mhchem</h4>
+<p><strong><a href="https://github.com/Khan/KaTeX/tree/master/contrib/mhchem" target="_blank" rel="noopener noreffer">mhchem</a>
+</strong> is an extension for <strong>$\KaTeX$</strong>.</p>
+<p>By the extension, you can write beautiful chemical equations easily in the article.</p>
+<p>Set the property <code>mhchem = true</code> under <code>[params.math]</code> in your <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>
+ to enable mhchem.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>$$ \ce{CO2 + C -&gt; 2 CO} $$
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$$ \ce{Hg^2+ -&gt;[I-] HgI2 -&gt;[I-] [Hg^{II}I4]^2-} $$
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<p>$$ \ce{CO2 + C -&gt; 2 CO} $$</p>
+<p>$$ \ce{Hg^2+ -&gt;[I-] HgI2 -&gt;[I-] [Hg^{II}I4]^2-} $$</p>
+<h3 id="ruby">Ruby Annotation</h3>
+<p>An extended Markdown syntax for <strong>ruby annotation</strong> is supported in <strong>KeepIt</strong> theme:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>[Hugo]^(An open-source static site generator)
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<p><strong><ruby>Hugo<rt>An open-source static site generator</rt></ruby></strong></p>
+<h3 id="fraction">Fraction</h3>
+<a href="https://github.com/Fastbyte01/KeepIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
+        class="lazyload version"
+        src="/svg/loading.min.svg"
+        data-src="/svg/version/0.2.0-new.min.svg"
+        data-srcset="/svg/version/0.2.0-new.min.svg, /svg/version/0.2.0-new.min.svg 1.5x, /svg/version/0.2.0-new.min.svg 2x"
+        data-sizes="auto"
+        alt="KeepIt NEW | 0.2.0"
+        title="KeepIt NEW | 0.2.0" /></a>
+<p>An extended Markdown syntax for <strong>fraction</strong> is supported in <strong>KeepIt</strong> theme:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>[Light]/[Dark]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[99]/[100]
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<p><sup>Light</sup>/<sub>Dark</sub></p>
+<p><sup>90</sup>/<sub>100</sub></p>
+<h3 id="fontawesome">Font Awesome</h3>
+<p><strong>KeepIt</strong> theme uses <a href="https://fontawesome.com/" target="_blank" rel="noopener noreffer">Font Awesome</a>
+ as the icon library.
+You can easily use these icons in your articles.</p>
+<p>Get the <code>class</code> of icons you wanted from the <a href="https://fontawesome.com/icons?d=gallery" target="_blank" rel="noopener noreffer">Font Awesome website</a>
+.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>Gone camping! :(fas fa-campground fa-fw): Be back soon.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>That is so funny! :(far fa-grin-tears):
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<p>Gone camping! <i class="fas fa-campground fa-fw" aria-hidden="true"></i>&nbsp;Be back soon.</p>
+<p>That is so funny! <i class="far fa-grin-tears" aria-hidden="true"></i></p>
+<h3 id="escape-character">Escape character</h3>
+<p>In some special cases (when writing this theme documentation <i class="far fa-grin-squint-tears" aria-hidden="true"></i>),
+your content will conflict with basic or extended Markdown syntax, and it is inevitable.</p>
+<p>The escape character syntax can help you build the content you wanted:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{?X} -&gt; X
+</span></span></code></pre></div><p>For example, two <code>:</code> will enable emoji syntax, which is not the behavior you want. The escape character syntax is like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{?:}joy:
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<p><strong>:joy:</strong> instead of <strong>:joy:</strong></p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">This is related to <strong><a href="https://github.com/gohugoio/hugo/issues/4978" target="_blank" rel="noopener noreffer">an issue for Hugo</a>
+</strong>, which has not been resolved.</div>
+        </div>
+    </div>
+<p>Another example is:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>[link{?]}(#escape-character)
+</span></span></code></pre></div><p>The rendered output looks like this:</p>
+<p><strong>[link](#escape-character)</strong> instead of <strong><a href="#escape-character" rel="">link</a>
+</strong>.</p></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2020-03-05</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://localhost:1313/posts/theme-documentation-content/" data-title="Theme Documentation - Content" data-via="xxx" data-hashtags="content,Markdown"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:1313/posts/theme-documentation-content/" data-hashtag="content"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/posts/theme-documentation-content/" data-title="Theme Documentation - Content"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://localhost:1313/posts/theme-documentation-content/" data-title="Theme Documentation - Content"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://localhost:1313/posts/theme-documentation-content/" data-title="Theme Documentation - Content" data-ralateuid="xxx"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/content/">Content</a>,&nbsp;<a href="/tags/markdown/">Markdown</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/theme-documentation-built-in-shortcodes/" class="prev" rel="prev" title="Theme Documentation - Built-in Shortcodes"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Theme Documentation - Built-in Shortcodes</a>
+            <a href="/posts/theme-documentation-basics/" class="next" rel="next" title="Theme Documentation - Basics">Theme Documentation - Basics<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.124.1">Hugo</a> | Theme - <a href="https://github.com/Fastbyte01/KeepIt" target="_blank" rel="noopener noreffer" title="KeepIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> KeepIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"data":{"id-1":"\\(\\mathbf{E}=\\sum_{i} \\mathbf{E}_{i}=\\mathbf{E}_{1}+\\mathbf{E}_{2}+\\mathbf{E}_{3}+\\cdots\\)","id-2":"\n\\[ a=b+c \\\\ d+e=f \\]\n","id-3":"\\(\\mathbf{E}=\\sum_{i} \\mathbf{E}_{i}=\\mathbf{E}_{1}+\\mathbf{E}_{2}+\\mathbf{E}_{3}+\\cdots\\)","id-4":"\n\\[ a=b+c \\\\ d+e=f \\]\n"},"lightgallery":true,"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
