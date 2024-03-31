@@ -12,5 +12,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <atom:link href="https://adityatelange.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang cơ bản</title>
+      <link>https://adityatelange.github.io/posts/golang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://adityatelange.github.io/posts/golang/</guid>
+      <description>Hướng dẫn cơn bản về ngôn ngữ Golang</description>
+    </item>
   </channel>
 </rss>
