@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/fa/facategories/</loc>
+    <loc>https://adityatelange.github.io/fa/facategories/</loc>
   </url><url>
-    <loc>http://localhost:1313/fa/faseries/</loc>
+    <loc>https://adityatelange.github.io/fa/faseries/</loc>
   </url><url>
-    <loc>http://localhost:1313/fa/fatags/</loc>
+    <loc>https://adityatelange.github.io/fa/fatags/</loc>
   </url><url>
-    <loc>http://localhost:1313/fa/</loc>
+    <loc>https://adityatelange.github.io/fa/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="https://adityatelange.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/"
+                href="https://adityatelange.github.io/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/"
+                href="https://adityatelange.github.io/fa/"
                 />
   </url>
 </urlset>

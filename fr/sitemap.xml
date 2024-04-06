@@ -2,52 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/fr/archives/</loc>
+    <loc>https://adityatelange.github.io/fr/archives/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/archives/"
+                href="https://adityatelange.github.io/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/archives/"
+                href="https://adityatelange.github.io/fr/archives/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/categories/"
-                />
+    <loc>https://adityatelange.github.io/fr/frcategories/</loc>
   </url><url>
-    <loc>http://localhost:1313/fr/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/"
-                />
+    <loc>https://adityatelange.github.io/fr/frseries/</loc>
   </url><url>
-    <loc>http://localhost:1313/fr/tags/</loc>
+    <loc>https://adityatelange.github.io/fr/frtags/</loc>
+  </url><url>
+    <loc>https://adityatelange.github.io/fr/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="https://adityatelange.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://adityatelange.github.io/fa/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/tags/"
+                href="https://adityatelange.github.io/fr/"
                 />
   </url>
 </urlset>
